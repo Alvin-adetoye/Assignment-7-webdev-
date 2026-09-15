@@ -108,6 +108,9 @@ nav {
   gap: 20px;
 }
 
+.top-right img{
+  width: 30px;
+}
 .top-right select {
   width: 80px;
 }
@@ -116,6 +119,8 @@ nav {
   color: black;
   font-size: 14px;
   text-decoration: none;
+  padding: 7px;
+  border-radius: 60%;
 }
 
 .top-right a:hover {
@@ -273,10 +278,11 @@ nav {
   padding: 12px 50px;
   border-radius: 25px;
   /* transition: border 10s ease; */
+  transition: ;
 }
 
 .explore-section a:hover {
-  background-color: white;
+  background-color: rgb(245, 246, 247);
   border: none;
 }
 .explore-section-grandchild2 p {

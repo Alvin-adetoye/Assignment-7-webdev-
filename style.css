@@ -314,10 +314,6 @@ nav {
   font-size: 20px;
 }
 
-.explore-section-child2-card :nth-child(2) :hover {
-  
-}
-
 .explore-section-child2-card img {
   width: 60px;
 }
@@ -378,9 +374,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
-}
-.learn-section-child :nth-child(2) {
-  
 }
 
 .learn-section-child2-card {

@@ -10,7 +10,7 @@
 body {
   background-color: #FFFFFF;
   font-family: "Google Sans", sans-serif;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 nav {
@@ -22,14 +22,10 @@ nav {
   top: 0;
   left: 0;
   width: 100%; 
-  /* right: 0; */
   z-index: 1000;
-  /* padding-left: 27px;
-  padding-right: 27px; */
   padding: 0 27px;
-  /* gap: 5px; */
   background-color: #ffff;
-  height: 60px;
+  height: 50px;
 }
 
 .top-left {
@@ -129,7 +125,7 @@ nav {
 .guidiance-section {
   font-size: 16px;
   background-color: rgb(26, 115, 232);
-  padding: 30px 27px;
+  padding: 25px 27px;
   color: #ffff;
 }
 
@@ -278,7 +274,6 @@ nav {
   padding: 12px 50px;
   border-radius: 25px;
   /* transition: border 10s ease; */
-  transition: ;
 }
 
 .explore-section a:hover {
@@ -331,6 +326,7 @@ nav {
   margin: 30px 0;
 }
 
+
 .learn {
   font-size: 16px;
   display: block;
@@ -341,6 +337,7 @@ nav {
   padding: 12px 50px;
   border-radius: 25px;
 }
+
 .learn-section {
   background-color: #ffff;
 }
@@ -368,6 +365,11 @@ nav {
   padding: 12px 50px;
   border-radius: 25px;
 }
+.learn-section-grandchild a:hover {   
+  border: none;
+  background-color: #fff;
+}
+
 .learn-section-grandchild2 p  {
   width: 65%;
   line-height: 24px;

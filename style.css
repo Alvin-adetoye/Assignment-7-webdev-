@@ -28,10 +28,6 @@ nav {
   height: 50px;
 }
 
-.top-left {
-  /* width: 180px; */
-}
-
 
 .top-left img{
   width: 180px;
@@ -117,6 +113,7 @@ nav {
   text-decoration: none;
   padding: 7px;
   border-radius: 60%;
+  white-space: nowrap;
 }
 
 .top-right a:hover {
@@ -465,7 +462,7 @@ nav {
 
 .live-update-grandchild a{
   display: inline-block;
-  margin: 20px 310px;
+  margin: 20px auto 0;
   text-align: center;
   padding: 12px 50px;
   text-decoration: none;
@@ -513,7 +510,8 @@ nav {
 .others-grandchild,
 .others-grandchild2,
 .others-grandchild3 {
-  width: 33.3%;
+  /* width: 33.3%; */
+  flex: 1;
 }
 
 .others-grandchild h2 {
@@ -540,6 +538,13 @@ nav {
   padding: 12px 50px;
   border-radius: 30px;
   font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  /* flex-wrap: nowrap; */
+}
+
+.a1:hover {
+  border: none;
 }
 
 .others-grandchild2 a:nth-child(1),

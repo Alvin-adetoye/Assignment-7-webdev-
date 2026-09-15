@@ -273,6 +273,7 @@ nav {
   text-decoration: none;
   padding: 12px 50px;
   border-radius: 25px;
+  white-space: nowrap;
   /* transition: border 10s ease; */
 }
 
@@ -337,6 +338,7 @@ nav {
   text-decoration: none;
   padding: 12px 50px;
   border-radius: 25px;
+  white-space: nowrap;
 }
 
 .learn-section {
@@ -365,6 +367,7 @@ nav {
   text-decoration: none;
   padding: 12px 50px;
   border-radius: 25px;
+  white-space: nowrap;
 }
 .learn-section-grandchild a:hover {   
   border: none;
